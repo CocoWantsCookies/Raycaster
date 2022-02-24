@@ -1,5 +1,5 @@
 #Creating a world class
-class world:
+class World:
     def __init__(self, width, height):
         self.width = width
         self.height = height
@@ -8,7 +8,7 @@ class world:
 
 #Creating the levels
     #Test Level
-worldTest = world(10, 8)
+worldTest = World(10, 8)
 for y in range (8):
     for x in range (10):
         worldTest.Map[y][x] = 1
