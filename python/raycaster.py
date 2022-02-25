@@ -1,4 +1,5 @@
 #Imports
+import sys
 import pygame
 import pygame.gfxdraw
 from pygame.locals import *
@@ -78,7 +79,6 @@ print(entities[0])
 
 #Game loop
 while True:
-    entities[0] = player
     draw()
     for event in pygame.event.get():
         if event.type == QUIT:
